@@ -15,7 +15,7 @@ def main():
         <body>
         <h1>GPA Calculator for Yamagata University</h1>
         <h3>学務情報システムに表示された成績から、GPA・GPS・総(修得/履修)単位数を計算するプログラムです。</h3>
-        <h4>はじめに<a href="./statics/Readme.html" target="_blank" rel="noreferrer noopener">使い方</a>をお読みください</h4>
+        <h4>はじめに<a href="https://yucalc-gpa.herokuapp.com/statics/Readme.html" target="_blank" rel="noreferrer noopener">使い方</a>をお読みください</h4>
         </body>
         </html>
     """, height=250)
