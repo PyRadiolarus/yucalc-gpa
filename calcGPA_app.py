@@ -15,12 +15,12 @@ def main():
         <body>
         <h1>GPA Calculator for Yamagata University</h1>
         <h3>学務情報システムに表示された成績から、GPA・GPS・総(修得/履修)単位数を計算するプログラムです。</h3>
-        <h4>はじめに<a href="https://pyradiolarus.github.io/readme.html" target="_blank" rel="noreferrer noopener">使い方</a>をお読みください</h4>
+        <h4>はじめに<a href="https://pyradiolarus.github.io/readme.html" target="_blank" rel="noreferrer noopener">使い方</a>をお読みください。</h4>
         </body>
         </html>
     """, height=250)
     #stc.html("<h1>GPA Calculator for Yamagata University</h1>")
-    #st.subheader("学務情報システムに表示された成績か ら、GPA・GPS・総(修得/履修)単位数を計算するプログラムです。")
+    #st.subheader("学務情報システムに表示された成績から、GPA・GPS・総(修得/履修)単位数を計算するプログラムです。")
     text = st.text_area(label="ここに成績を貼り付けてください。",value="")
     text = re.sub("\t",",",text)
     lines = re.split("合|否|認",text)
