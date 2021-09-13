@@ -18,7 +18,7 @@ def main():
         <h4>はじめに<a href="./statics/Readme.html" target="_blank" rel="noreferrer noopener">使い方</a>をお読みください</h4>
         </body>
         </html>
-    """, height=300)
+    """, height=250)
     #stc.html("<h1>GPA Calculator for Yamagata University</h1>")
     #st.subheader("学務情報システムに表示された成績から、GPA・GPS・総(修得/履修)単位数を計算するプログラムです。")
     text = st.text_area(label="ここに成績を貼り付けてください。",value="")
