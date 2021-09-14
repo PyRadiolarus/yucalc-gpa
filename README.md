@@ -10,5 +10,7 @@
 
 このリポジトリについての質問がありましたら、[Twitter](https://www.twitter.com/4voltex/)までご連絡ください。
 
+# License
+This repository contents are licensed MIT.  see LICENSE.
 
 Last updated：2021-09-14(JST)

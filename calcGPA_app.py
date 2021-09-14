@@ -1,3 +1,5 @@
+""" Copyright (c) 2021 Minori Hagino (twitter.com/4voltex)
+    This software is released under the MIT License, see LICENSE."""
 import streamlit as st
 import streamlit.components.v1 as stc
 import math,re
