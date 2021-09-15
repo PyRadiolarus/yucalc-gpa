@@ -8,6 +8,15 @@ def main():
     stc.html("""
         <html>
         <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-2VHML4N906"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-2VHML4N906');
+        </script>
         <style>
         body {
             background-color: white;
@@ -18,10 +27,9 @@ def main():
         <h1>GPA Calculator for Yamagata University</h1>
         <h3>学務情報システムに表示された成績から、GPA・GPS・総(修得/履修)単位数を計算するプログラムです。</h3>
         <h4>はじめに<a href="https://pyradiolarus.github.io/readme.html" target="_blank" rel="noreferrer noopener">使い方</a>をお読みください。</h4>
-        <p><img src=”http://hpcgi2.hotweb.or.jp/counter/counter.cgi?link=https://yucalc-gpa.herokuapp.com/&style=odometer&width=6“>仮設置です。</p>
         </body>
         </html>
-    """, height=300)
+    """, height=250)
     #stc.html("<h1>GPA Calculator for Yamagata University</h1>")
     #st.subheader("学務情報システムに表示された成績から、GPA・GPS・総(修得/履修)単位数を計算するプログラムです。")
     text = st.text_area(label="ここに成績を貼り付けてください。",value="")
