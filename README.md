@@ -11,7 +11,7 @@
 このリポジトリについての質問がありましたら、[Twitter](https://www.twitter.com/4voltex/)までご連絡ください。
 
 ## License
-The source code is licensed MIT. The website content is licensed CC BY 4.0, see [LICENSE](LICENSE.txt).
+The source code is licensed MIT. The website content is licensed CC BY 4.0, see [LICENSE](LICENSE.txt).<br>
 ソースコードはMITライセンスに、使用方法や本文書等はCC BY 4.0ライセンスに基づいて公開しています。詳しくは[ライセンス](LICENSE.txt)をお読みください。
 
 Last updated：2021-09-16(JST)
