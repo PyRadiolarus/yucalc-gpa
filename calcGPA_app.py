@@ -19,14 +19,14 @@ def main():
         </head>
         <body>
         <h1>GPA Calculator for Yamagata University</h1>
-        <p><strong>※現在、学務情報システムがたいへん混み合っています。成績をコピーしたら、このプログラムに貼り付ける前にログアウトすることを推奨します。</strong></p>
         <h3>学務情報システムに表示された成績から、GPA・GPS・総(修得/履修)単位数を計算するプログラムです。</h3>
         <h4>はじめに<a href="https://pyradiolarus.github.io/readme.html" target="_blank" rel="noreferrer noopener">使い方</a>をお読みください。</h4>
         </body>
         </html>
-    """, height=320)
-    #stc.html("<h1>GPA Calculator for Yamagata University</h1>")
-    #st.subheader("学務情報システムに表示された成績から、GPA・GPS・総(修得/履修)単位数を計算するプログラムです。")
+    """, height=300)
+    #stc.html("""
+    # <p><strong>※現在、学務情報システムがたいへん混み合っています。成績をコピーしたら、このプログラムに貼り付ける前にログアウトすることを推奨します。</strong></p>
+    # """, height=320)
     text = st.text_area(label="ここに成績を貼り付けてください。",value="")
     text = re.sub("\t",",",text)
     lines = re.split("合|否|認",text)
