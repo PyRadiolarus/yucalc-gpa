@@ -1,6 +1,6 @@
 # yucalc-gpa
 
-**GPA Calculator for Yamagata University** のコードを置いています。Heroku上にアップロードしているディレクトリと同じものです。
+[**GPA Calculator for Yamagata University**](https://yucalc-gpa.herokuapp.com/) のコードを置いています。Heroku上にアップロードしているディレクトリと同じものです。
 
 
 ＜ファイル構成＞<br>
@@ -14,4 +14,4 @@
 The source code is licensed MIT. The website content is licensed CC BY 4.0, see [LICENSE](LICENSE.txt).<br>
 ソースコードはMITライセンスに、使用方法や本文書等はCC BY 4.0ライセンスに基づいて公開しています。詳しくは[ライセンス](LICENSE.txt)をお読みください。
 
-Last updated：2021-09-16(JST)
+Last updated：2021-10-09 (JST)
