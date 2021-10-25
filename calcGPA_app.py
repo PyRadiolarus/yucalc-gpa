@@ -2,7 +2,8 @@
     This software is released under the MIT License, see LICENSE."""
 import streamlit as st
 import streamlit.components.v1 as stc
-import math,re
+import math
+import re
 
 def main():
     stc.html("""
@@ -30,7 +31,7 @@ def main():
     text = st.text_area(label="ここに成績を貼り付けてください。",value="")
     text = re.sub("\t",",",text)
     lines = re.split("合|否|認",text)
-    GPSum, dNum, FNum = 0, 0, 0
+    grade_point_sum, degree_count, faulting_count = 0, 0, 0
 
     for line in lines:
         line = line.split(",")
@@ -61,19 +62,19 @@ def main():
             if out < 0:
                 pass
             else:
-    # GP計算
-                GP = out * degree
-                GPSum += GP
-                dNum += degree
+    # GP(grade_point)計算
+                grade_point = out*degree
+                grade_point_sum += grade_point
+                degree_count += degree
                 if out == 0:
-                    FNum += degree
+                    faulting_count += degree
 
     try:
-        GPA = math.floor(GPSum / dNum * 10 ** 2) / (10 ** 2)
+        grade_point_average = math.floor(grade_point_sum/degree_count*10**2)/(10**2)
     except ZeroDivisionError:
         pass
     try:
-        st.write("GPS：", GPSum, "\n履修単位数：", dNum, "\n修得単位数：", dNum - FNum, "\nGPA：", GPA)
+        st.write("GPS：", grade_point_sum, "\n履修単位数：", degree_count, "\n修得単位数：", degree_count-faulting_count, "\nGPA：", grade_point_average)
     except UnboundLocalError:
         pass
 
