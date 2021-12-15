@@ -4,7 +4,7 @@
 
 
 ＜ファイル構成＞<br>
-* [コード](calcGPA_app.py) &dash; 公開しているプログラム本体のコードです。Streamlitを用いて実装しているため、HTMLコードはなく、このPythonファイルのみでできています。<br>
+* [コード](GPACalculator.py) &dash; 公開しているプログラム本体のコードです。Streamlitを用いて実装しているため、HTMLコードはなく、このPythonファイルのみでできています。<br>
 * [設定ファイル](Procfile) &dash; プログラムとプラットフォームを繋ぐ役割のファイルで、コマンドを記述してあります。要は指示書のようなものです。<br>
 * [パッケージリスト](requirements.txt) &dash; プログラムを動作させるためにインストールしなければならないライブラリを記述しています。<br>
 
@@ -18,5 +18,6 @@ The source code is licensed MIT. The website content is licensed CC BY 4.0, see 
 * 2021-10-25 v1.0から1.1に更新。コードを修正、PEP8準拠に。
 * 2021-11-05 Python3.10対応。
 * 2021-11-20 独自ドメイン適用。
+* 2021-12-16 コード本体をリネーム。
 
-Last updated：2021-11-22 (JST)
+Last updated：2021-12-16 (JST)
