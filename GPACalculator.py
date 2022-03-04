@@ -1,4 +1,4 @@
-""" Copyright (c) 2021 Minori Hagino (twitter.com/4voltex)
+""" Copyright (c) 2021-2022 Minori Hagino (twitter.com/4voltex)
     This software is released under the MIT License, see LICENSE."""
 import streamlit as st
 import streamlit.components.v1 as stc
@@ -6,9 +6,8 @@ import math
 import re
 
 def main():
-    stc.html("""
-        <html>
-        <head>
+    stc.html(
+        """
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-SLLVKQBE42"></script>
         <script>
@@ -18,6 +17,11 @@ def main():
 
             gtag('config', 'G-SLLVKQBE42');
         </script>
+        """
+    )
+    stc.html("""
+        <html>
+        <head>
         <style>
         body {
             background-color: white;
