@@ -6,7 +6,7 @@ import math
 import re
 
 def main():
-    stc.iframe("https://github.com/PyRadiolarus/page.remh.dev/blob/9359f778fe9f15e196910e1e5401d35d9d659b37/static/gtag_calc.js",scrolling=False)
+    stc.iframe("https://drive.google.com/file/d/1Q7nF3Sr7qd9rGGp8NLQesHCoR54fHKOO/view?usp=sharing",scrolling=False)
     stc.html("""
         <html>
         <head>
