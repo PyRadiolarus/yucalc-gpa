@@ -6,19 +6,7 @@ import math
 import re
 
 def main():
-    stc.html(
-        """
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-SLLVKQBE42"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'G-SLLVKQBE42');
-        </script>
-        """
-    )
+    stc.iframe("https://github.com/PyRadiolarus/page.remh.dev/blob/9359f778fe9f15e196910e1e5401d35d9d659b37/static/gtag_calc.js",scrolling=False)
     stc.html("""
         <html>
         <head>
