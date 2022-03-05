@@ -6,7 +6,7 @@ import math
 import re
 
 def main():
-    stc.iframe("https://page.remh.dev/js/gtag_calc.js",scrolling=True)
+    stc.iframe("https://page.remh.dev/analytics.html",scrolling=False)
     stc.html("""
         <html>
         <head>
@@ -20,7 +20,6 @@ def main():
         </style>
         </head>
         <body>
-        <h1>GPA Calculator for Yamagata University</h1>
         <h3>学務情報システムに表示された成績から、GPA・GPS・総(修得/履修)単位数を計算するプログラムです。</h3>
         <h4>はじめに<a href="https://page.remh.dev/readme.html" target="_blank" rel="noreferrer noopener">使い方</a>をお読みください。</h4>
         </body>
