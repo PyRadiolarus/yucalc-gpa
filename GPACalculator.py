@@ -24,7 +24,7 @@ def main():
         <h4>はじめに<a href="https://page.remh.dev/readme.html" target="_blank" rel="noreferrer noopener">使い方</a>をお読みください。</h4>
         </body>
         </html>
-    """, height=300)
+    """)
     #stc.html("""
     # <p><strong>※現在、学務情報システムがたいへん混み合っています。成績をコピーしたら、このプログラムに貼り付ける前にログアウトすることを推奨します。</strong></p>
     # """, height=320)
