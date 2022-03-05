@@ -6,10 +6,10 @@ import math
 import re
 
 def main():
-    stc.iframe("https://drive.google.com/file/d/1Q7nF3Sr7qd9rGGp8NLQesHCoR54fHKOO/view?usp=sharing",scrolling=False)
     stc.html("""
         <html>
         <head>
+        <script src="https://drive.google.com/file/d/1Q7nF3Sr7qd9rGGp8NLQesHCoR54fHKOO/view?usp=sharing"></script>
         <style>
         body {
             background-color: white;
