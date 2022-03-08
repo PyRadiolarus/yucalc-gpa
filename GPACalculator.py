@@ -10,6 +10,7 @@ def main():
     stc.html("""
         <html>
         <head>
+        <meta name="twitter:card" content="summary">
         <style>
         body {
             background-color: white;
