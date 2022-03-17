@@ -24,6 +24,7 @@ The source code is licensed MIT. The website content is licensed CC BY 4.0, see 
 * 2021-11-05 Python3.10対応。
 * 2021-11-20 独自ドメイン適用。
 * 2021-12-16 コード本体をリネーム。
-* 2022-03-02 ライブラリ更新・連絡先追記。
+* 2022-03-02 連絡先記載。
+* 2022-03-17 ライブラリ更新。
 
-Last updated：2022-03-02 (JST)
+Last updated：2022-03-17 (JST)
