@@ -22,7 +22,7 @@ def main():
         </head>
         <body>
         <h3>学務情報システムに表示された成績から、GPA・GPS・総(修得/履修)単位数を計算するプログラムです。</h3>
-        <h4>はじめに<a href="https://page.remh.dev/readme_old.html" target="_blank" rel="noreferrer noopener">使い方</a>をお読みください。</h4>
+        <h4>はじめに<a href="https://page.remh.dev/documents/readme/" target="_blank" rel="noreferrer noopener">使い方</a>をお読みください。</h4>
         </body>
         </html>
     """)
