@@ -1,4 +1,4 @@
-""" Copyright (c) 2021-2022 Minori Hagino (twitter.com/4voltex)
+""" Copyright (c) 2021-2023 Minori Hagino (twitter.com/4voltex)
     This software is released under the MIT License, see LICENSE."""
 import streamlit as st
 import streamlit.components.v1 as stc
@@ -31,7 +31,7 @@ def main():
     # """, height=220)
     text = st.text_area(label="ここに成績を貼り付けてください。",value="")
     text = re.sub("\t",",",text)
-    lines = re.split("合|否|認",text)
+    lines = re.split("\n",text)
     grade_point_sum, degree_count, faulting_count = 0, 0, 0
 
     for line in lines:
