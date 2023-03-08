@@ -26,9 +26,9 @@ def main():
         </body>
         </html>
     """)
-    #stc.html("""
-    # <p><strong>※現在、学務情報システムがたいへん混み合っています。成績をコピーしたら、このプログラムに貼り付ける前にログアウトすることを推奨します。</strong></p>
-    # """, height=220)
+    stc.html("""
+        <p><strong>※現在、学務情報システムがたいへん混み合っています。成績をコピーしたら、このプログラムに貼り付ける前にログアウトすることを推奨します。</strong></p>
+    """, height=220)
     text = st.text_area(label="ここに成績を貼り付けてください。",value="")
     text = re.sub("\t",",",text)
     lines = re.split("\n",text)
