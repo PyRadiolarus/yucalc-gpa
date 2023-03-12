@@ -22,11 +22,11 @@ def main():
         </head>
         <body>
         <h3>学務情報システムに表示された成績から、GPA・GPS・総(修得/履修)単位数を計算するプログラムです。</h3>
-        <h4>はじめに<a href="https://page.remh.dev/documents/readme/" target="_blank" rel="noreferrer noopener">使い方</a>をお読みください。</h4>
-        <p><strong>※現在、学務情報システムがたいへん混み合っています。成績をコピーしたら、このプログラムに貼り付ける前にログアウトすることを推奨します。</strong></p>
+        <h4>はじめに<a href="https://page.remh.dev/documents/readme/" target="_blank" rel="noopener">使い方</a>をお読みください。</h4>
         </body>
         </html>
     """,height=220)
+    # <p><strong>※現在、学務情報システムがたいへん混み合っています。成績をコピーしたら、このプログラムに貼り付ける前にログアウトすることを推奨します。</strong></p>
     text = st.text_area(label="ここに成績を貼り付けてください。",value="")
     text = re.sub("\t",",",text)
     lines = re.split("\n",text)
