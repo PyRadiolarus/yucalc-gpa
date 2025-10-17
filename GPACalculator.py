@@ -1,4 +1,4 @@
-""" Copyright (c) 2021-2023 Minori Hagino (twitter.com/4voltex)
+""" Copyright (c) 2021-2025 Minori Hagino (x.com/4voltex)
     This software is released under the MIT License, see LICENSE."""
 import streamlit as st
 import streamlit.components.v1 as stc

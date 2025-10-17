@@ -10,7 +10,7 @@
 
 * [パッケージリスト](requirements.txt) &dash; プログラムを動作させるためにインストールしなければならないライブラリを記述しています。
 
-このリポジトリについての質問がありましたら、[Twitter](https://www.twitter.com/4voltex/)もしくは[メール](<mailto:remh@ymail.ne.jp>)までご連絡ください。
+このリポジトリについての質問がありましたら、[Twitter](https://www.x.com/4voltex/)もしくは[メール](<mailto:postmaster@remh.dev>)までご連絡ください。
 
 ## License
 
@@ -27,5 +27,6 @@ The source code is licensed MIT. The website content is licensed CC BY 4.0, see 
 * 2022-03-02 連絡先記載。
 * 2022-03-17 ライブラリ更新。
 * 2025-02-04 Python 3.13対応、OSイメージ更新。
+* 2025-10-17 ライブラリおよびライセンス更新、連絡先変更。
 
-Last updated：2025-02-04 (JST)
+Last updated：2025-10-17 (JST)
